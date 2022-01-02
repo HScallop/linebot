@@ -12,6 +12,8 @@
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
 
+## 說明
+一開始會從user出發，每個state代表一個劇情，過程中你會需要依據linebot回傳的提示來選擇你要走的選項。
 
 
 A Line bot based on a finite state machine
@@ -75,20 +77,7 @@ python3 app.py
 Or You can use [servo](http://serveo.net/) to expose local servers to the internet.
 
 
-## Finite State Machine
-![fsm](./img/show-fsm.png)
 
-## Usage
-The initial state is set to `user`.
-
-Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
-
-* user
-	* Input: "go to state1"
-		* Reply: "I'm entering state1"
-
-	* Input: "go to state2"
-		* Reply: "I'm entering state2"
 
 ## Deploy
 Setting to deploy webhooks on Heroku.
