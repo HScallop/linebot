@@ -13,7 +13,7 @@
 ![fsm](./img/show-fsm.png)
 
 ## 說明
-一開始會從user出發，每個state代表一個劇情，過程中你會需要依據linebot回傳的提示來選擇你要走的選項。
+一開始會從user出發，每個state代表一個劇情，過程中你會需要依據linebot回傳的提示來選擇你要走的選項。過程中
 
 
 A Line bot based on a finite state machine
