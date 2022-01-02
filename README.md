@@ -1,16 +1,20 @@
 # 邂逅模擬器
 
-
 [![Maintainability](https://api.codeclimate.com/v1/badges/dc7fa47fcd809b99d087/maintainability)](https://codeclimate.com/github/NCKU-CCS/TOC-Project-2020/maintainability)
 
 [![Known Vulnerabilities](https://snyk.io/test/github/NCKU-CCS/TOC-Project-2020/badge.svg)](https://snyk.io/test/github/NCKU-CCS/TOC-Project-2020)
 
 
-Template Code for TOC Project 2020
+很多人都渴望來一場邂逅，這個linebot會滿足你的願望。
+
+這個聊天機器人是遊戲型的聊天機器人，模擬邂逅過程中不同的情況，你必須選擇行動，來推展劇情！
+
+## Finite State Machine
+![fsm](./img/show-fsm.png)
+
+
 
 A Line bot based on a finite state machine
-
-More details in the [Slides](https://hackmd.io/@TTW/ToC-2019-Project#) and [FAQ](https://hackmd.io/s/B1Xw7E8kN)
 
 ## Setup
 
