@@ -84,7 +84,9 @@ class TocMachine(GraphMachine):
         return text.lower() == "showgun"
 
     def is_going_to_poem(self, event):
+        global need_translate
         text=event.message.text
+        need_translate=text
         return text.lower() != "showgun" and bool(text.strip())
 
     def on_enter_software(self, event):
@@ -335,7 +337,6 @@ class TocMachine(GraphMachine):
                 text = '白日依山盡'
             ),
         ]
-        need_translate=text
         url = 'https://imgur.com/7cTQOVP.jpg'
         send_button_message(event.reply_token, title, text, btn, url)
 
